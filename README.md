@@ -1,10 +1,10 @@
-# QR-CodeGenerator-Python
+# CodesGenerator-Python
 
-This is a simple Python script for generating QR codes that point to URLs
+Simple scripts for generating QR codes and Barcodes.
 
 Just install the necessary deps:
 ```
-pip install qrcode[pil] validators
+pip install qrcode[pil] python-barcode pillow
 ```
 
-Then run the code and insert the URL. The output image will be generated in `output/qrcode.png`
+Then just run the code you need and insert the input. The output image will be generated in `output/qrcode/qrcode_<timestamp>.png` and `output/barcode/barcode_<timestamp>.png`
